@@ -7,10 +7,9 @@ body {
 .container {
     /* border: 2px solid yellowgreen; */
     display: grid;
-    height:70vh;
-    max-height: 900px;
-    max-width: 1420px;
-    min-width: none;
+    height:640px;
+    max-width: 1000px;
+    min-width: 1000px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 0.5fr 0.5fr 1.25fr 0.25fr;
     grid-template-areas: 
@@ -21,32 +20,66 @@ body {
     gap: 10px;
 }
 
+img {
+    border-radius: 24px;
+}
+
 .card {
-    /* border: 1px solid black; */
-    border-radius: 8px;
+    border-radius: 24px;
     background-color: #ededed;
+    font-family: 'Mulish', sans-serif;
 }
 
 .profile {
     grid-area: profile;
     width: 400;
     min-height: 400;
+    position: relative;
+}
+
+.profile-picture {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.name {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    font-size: 2em;
+    font-family: 'Mulish', sans-serif;
 }
 
 .tagline {
     grid-area: tagline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .education {
     grid-area: education;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+    /* gap: 100px; */
 }
 
 .experience {
     grid-area: experience;
+    display: grid;
+    gap: 10px;
+    min-width: 300px;
 }
 
 .pictures {
     grid-area: pictures;
+    overflow: hidden;
 }
 
 .skills {
@@ -55,6 +88,14 @@ body {
 
 .footer {
     grid-area: footer;
+}
+
+.job {
+    display: grid;
+    grid-template-rows: 1fr 1.2fr 1fr 0.25fr;
+    padding-top: 8px;
+    padding-left: 12px;
+    padding-bottom: 8px;
 }
 
 @media only screen and (max-width:550px) {
@@ -70,5 +111,56 @@ body {
         "experience"
         "pictures"
         "footer";
+    }
+
+    .card {
+        border-radius: 8px
+    }
+}
+
+.job-duration {
+    font-size: 0.9em;
+    /* border: 1px solid red; */
+}
+
+.job-company {
+    font-size: 1.2em;
+    /* border: 1px solid red; */
+}
+
+.job-title {
+    font-size: 0.9em;
+    /* border: 1px solid red; */
+}
+
+/*Area of images*/
+.wrapper {
+    width: 100%;
+    display: flex;
+    animation: slide 10s infinite;
+}
+
+img {
+    width: 100%;
+}
+/*Animation activated by keyframes*/
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
     }
 }
