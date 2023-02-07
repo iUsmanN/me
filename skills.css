@@ -14,21 +14,31 @@
 
 .swift {
     background-image: linear-gradient(to left, rgb(253, 105, 0), rgb(240, 184, 54));
+    grid-area: swift;
     overflow: hidden;
 }
 
 .html {
     background-image: linear-gradient(to left, rgb(240, 151, 151), rgb(200, 61, 48));
+    grid-area: html;
 }
 
 .cpp {
     background-image: linear-gradient(to left, rgb(94, 142, 230), rgb(51, 113, 228));
+    grid-area: cpp;
 }
 
 .css {
     background-image: linear-gradient(to left, rgb(94, 182, 230), rgb(19, 168, 248));
+    grid-area: css;
 }
 
 .python {
     background-image: linear-gradient(to left, rgb(70, 160, 244), rgb(240, 211, 96));
+    grid-area: python;
+}
+
+.javascript {
+    background-image: linear-gradient(to left, rgb(243, 207, 4), rgb(226, 157, 19));
+    grid-area: javascript;
 }
