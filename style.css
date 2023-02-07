@@ -1,33 +1,32 @@
 body {
     padding-top: 7%;
-    padding-left: 15%;
-    padding-right: 15%;
+    /* padding-left: 15%;
+    padding-right: 15%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
-    /* border: 2px solid yellowgreen; */
     display: grid;
     height:640px;
     max-width: 1000px;
     min-width: 1000px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 0.5fr 1.25fr 0.25fr;
+    grid-template-columns: 1fr 1.5fr 0.5fr 0.5fr;
+    grid-template-rows: 0.85fr 0.2fr 1fr 0.35fr 0.2fr;
     grid-template-areas: 
-    "profile tagline tagline tagline"
-    "profile education education education"
+    "profile tagline education education"
+    "profile pictures pictures skills"
     "experience pictures pictures skills"
-    "experience footer footer skills";
+    "experience pictures pictures contact"
+    "experience footer footer contact";
     gap: 10px;
-}
-
-img {
-    border-radius: 24px;
 }
 
 .card {
     border-radius: 24px;
-    background-color: #ededed;
-    font-family: 'Mulish', sans-serif;
+    background-color: #f8f8f8;
 }
 
 .profile {
@@ -41,14 +40,16 @@ img {
     position: absolute;
     bottom: 0;
     right: 0;
+    margin: 0px;
 }
 
 .name {
     position: absolute;
-    top: 14px;
-    left: 14px;
-    font-size: 2em;
-    font-family: 'Mulish', sans-serif;
+    top: 30px;
+    left: 30px;
+    font-size: 2.5em;
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight:500;
 }
 
 .tagline {
@@ -59,14 +60,18 @@ img {
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.5em;
 }
 
 .education {
     grid-area: education;
     display: flex;
+    flex-direction: column;
     justify-content:space-evenly;
     align-items: center;
     text-align: center;
+    font-family: 'SF Pro Display', sans-serif;
     /* gap: 100px; */
 }
 
@@ -84,54 +89,88 @@ img {
 
 .skills {
     grid-area: skills;
+    display: grid;
+    grid-template-rows: repeat(1fr);
+    gap: 10px;
 }
 
 .footer {
     grid-area: footer;
 }
 
+.contact {
+    grid-area: contact;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .job {
     display: grid;
     grid-template-rows: 1fr 1.2fr 1fr 0.25fr;
-    padding-top: 8px;
-    padding-left: 12px;
-    padding-bottom: 8px;
-}
-
-@media only screen and (max-width:550px) {
-    .container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 5fr 2fr 2fr 2fr 6fr 5fr 2fr;
-        grid-template-areas: 
-        "profile"
-        "tagline"
-        "education"
-        "skills"
-        "experience"
-        "pictures"
-        "footer";
-    }
-
-    .card {
-        border-radius: 8px
-    }
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-family: 'SF Pro Display', sans-serif;
 }
 
 .job-duration {
-    font-size: 0.9em;
+    font-size: 0.8em;
+    font-weight: 100;
+    color: #b8b8b8;
     /* border: 1px solid red; */
 }
 
 .job-company {
     font-size: 1.2em;
+    font-weight: 500;
     /* border: 1px solid red; */
 }
 
 .job-title {
-    font-size: 0.9em;
+    font-size: 0.8em;
     /* border: 1px solid red; */
 }
+
+light-blue {
+    color: #32acdd;
+}
+
+orange-text {
+    color: #f46d15;
+}
+
+blue-text {
+    color: #0e5dd3;
+}
+
+red-text {
+    color: #d5522b;
+}
+
+gray-text {
+    color: #b8b8b8;
+}
+
+degree-text {
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+university-text {
+    font-size: 0.8em;
+    color: #b8b8b8;
+}
+
+hr {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    color: aqua;
+  }
+
+p{ font-family: 'SF Pro Display', sans-serif; font-weight: 500; }
 
 /*Area of images*/
 .wrapper {
@@ -142,7 +181,9 @@ img {
 
 img {
     width: 100%;
+    border-radius: 24px;
 }
+
 /*Animation activated by keyframes*/
 @keyframes slide{
     0%{
