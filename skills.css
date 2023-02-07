@@ -13,28 +13,28 @@
 }
 
 .swift {
-    background-image: linear-gradient(to left, rgb(253, 105, 0), rgb(240, 184, 54));
+    background-image: linear-gradient(to left, rgb(253, 152, 0), rgb(240, 184, 54));
     grid-area: swift;
     overflow: hidden;
 }
 
 .html {
-    background-image: linear-gradient(to left, rgb(240, 151, 151), rgb(200, 61, 48));
+    background-image: linear-gradient(to left, rgb(240, 151, 151), rgb(206, 94, 84));
     grid-area: html;
 }
 
 .cpp {
-    background-image: linear-gradient(to left, rgb(94, 142, 230), rgb(51, 113, 228));
+    background-image: linear-gradient(to left, rgb(127, 159, 220), rgb(77, 127, 221));
     grid-area: cpp;
 }
 
 .css {
-    background-image: linear-gradient(to left, rgb(94, 182, 230), rgb(19, 168, 248));
+    background-image: linear-gradient(to left, rgb(127, 193, 229), rgb(54, 146, 196));
     grid-area: css;
 }
 
 .python {
-    background-image: linear-gradient(to left, rgb(70, 160, 244), rgb(240, 211, 96));
+    background-image: linear-gradient(to left, rgb(95, 219, 233), rgb(218, 216, 100));
     grid-area: python;
 }
 

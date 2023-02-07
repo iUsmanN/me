@@ -1,0 +1,30 @@
+.tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    color: black;
+    background-color: #f8f8f8;
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 10px 8px 10px 8px;
+  }
+  
+  degree-text:hover .tooltip-text {
+    visibility: visible;
+  }
+
+  
+  #em {
+    top: -9px;
+    right: -40%;
+  }
+  
+  #ph {
+    top: -9px;
+    right: -84%;
+  }
+  
+  .hover-text {
+    position: relative;
+  }

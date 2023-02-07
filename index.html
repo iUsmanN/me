@@ -6,12 +6,13 @@
     <link href="https://fonts.cdnfonts.com/css/sf-pro-display?styles=98774,98773,98770" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="skills.css">
+    <link rel="stylesheet" type="text/css" href="tooltips.css">
 </head>
 <body>
     <div class="container">
         <div class="card profile" id="profile">
             <div class="card profile-picture">
-                <img src="u.png" height="250px">
+                <img src="u.png" height="252px">
             </div>
             <div class="name">Usman<br>Nazir</div>
         </div>
@@ -22,12 +23,14 @@
         <div class="card education" id="education">
             <div>
             <degree-text>MSc Computer Science (Distinction)</degree-text><br>
-            <university-text>Queen Mary University of London</university-text>
+            <university-text>Queen Mary University of London</university-text><br>
+            <university-text>2021</university-text>
             </div>
             <hr>
             <div>
                 <degree-text>BSc Computer Science (1st Division)</degree-text><br>
-                <university-text>NUCES</university-text>
+                <university-text>NUCES</university-text><br>
+                <university-text>2018</university-text>
             </div>
         </div>
         <div class="experience" id="experience">
@@ -37,7 +40,7 @@
                 <div class="job-duration">June 2022 - Present</div>
             </div>
             <div class="card job">
-                <div class="job-title">Software Engineer</div>
+                <div class="job-title">Frontend Software Engineer (Contract)</div>
                 <div class="job-company">Spring Ltd</div>
                 <div class="job-duration">March 2022 - June 2022</div>
             </div>
@@ -54,12 +57,15 @@
         </div>
         <div class="card pictures" id="pictures">
             <div class="wrapper">
-                <img src="drift.png">
-                <img src="raven.png">
-                <img src="crowdhaus.png">
+                <img src="3.jpeg">
+                <img src="2.jpeg">
+                <img src="4.jpeg">
+                <img src="1.jpeg">
              </div>
         </div>
-        <div class="card footer" id="footer">footer</div>
+        <div class="card footer" id="footer">
+            <university-text>© Muhammad Usman Nazir</university-text>
+        </div>
         <div class="skills" id="skills">
             <div class="skill swift">Swift</div>
             <div class="skill html">HTML</div>
@@ -69,13 +75,17 @@
             <div class="skill javascript">JavaScript</div>
         </div>
         <div class="card contact" id="contact">
-            <div class="contact-div">Email Me</div>
+            <degree-text class="hover-text">Email me 
+                <span class="tooltip-text" id="em">iusmann@outlook.com</span>
+              </degree-text>
             <hr>
-            <div class="contact-div">Call Me</div>
+            <degree-text class="hover-text">Call me
+                <span class="tooltip-text" id="ph">+44 7470 371039</span>
+              </degree-text>
             <hr>
             <div class="links">
-                <a href="https://www.linkedin.com/in/iusmann/">LinkedIn</a>
-                <a href="https://github.com/iUsmanN">Github</a>
+                <a href="https://www.linkedin.com/in/iusmann/"><img src="https://img.icons8.com/ios-glyphs/90/null/linkedin-circled--v1.png" width="30px" height="30px"/></a>
+                <a href="https://github.com/iUsmanN"><img src="https://img.icons8.com/ios-glyphs/90/null/github.png" width="30px" height="30px"/></a>
             </div>
         </div>
     </div>

@@ -41,6 +41,7 @@ body {
     bottom: 0;
     right: 0;
     margin: 0px;
+    top: 0.5px;
 }
 
 .name {
@@ -72,7 +73,6 @@ body {
     align-items: center;
     text-align: center;
     font-family: 'SF Pro Display', sans-serif;
-    /* gap: 100px; */
 }
 
 .experience {
@@ -103,6 +103,9 @@ body {
 
 .footer {
     grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact {
@@ -193,7 +196,7 @@ p{ font-family: 'SF Pro Display', sans-serif; font-weight: 500; }
 .wrapper {
     width: 100%;
     display: flex;
-    animation: slide 10s infinite;
+    animation: slide 15s infinite;
 }
 
 img {
@@ -206,20 +209,26 @@ img {
     0%{
         transform: translateX(0);
     }
-    25%{
+    11%{
         transform: translateX(0);
     }
-    30%{
+    22%{
         transform: translateX(-100%);
     }
-    50%{
+    33%{
         transform: translateX(-100%);
+    }
+    44%{
+        transform: translateX(-200%);
     }
     55%{
         transform: translateX(-200%);
     }
-    75%{
-        transform: translateX(-200%);
+    66%{
+        transform: translateX(-300%);
+    }
+    77%{
+        transform: translateX(-300%);
     }
 }
 
