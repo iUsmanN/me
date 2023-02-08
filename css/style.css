@@ -1,5 +1,5 @@
 body {
-    padding-top: 7%;
+    padding-top: 6%;
     /* padding-left: 15%;
     padding-right: 15%; */
     display: flex;
@@ -10,7 +10,7 @@ body {
 
 .container {
     display: grid;
-    height:640px;
+    height:670px;
     max-width: 1000px;
     min-width: 1000px;
     grid-template-columns: 1fr 1.5fr 0.5fr 0.5fr;
@@ -209,32 +209,38 @@ img {
     0%{
         transform: translateX(0);
     }
-    10%{
+    8.3%{
         transform: translateX(0);
     }
-    20%{
+    16.6%{
         transform: translateX(-100%);
     }
-    30%{
+    24.9%{
         transform: translateX(-100%);
     }
-    40%{
+    33.2%{
         transform: translateX(-200%);
     }
-    50%{
+    41.5%{
         transform: translateX(-200%);
     }
-    60%{
+    49.8%{
         transform: translateX(-300%);
     }
-    70%{
+    58.1%{
         transform: translateX(-300%);
     }
-    80%{
+    66.4%{
         transform: translateX(-400%);
     }
-    90%{
+    74.7%{
         transform: translateX(-400%);
+    }
+    83%{
+        transform: translateX(-500%);
+    }
+    91.3%{
+        transform: translateX(-500%);
     }
 }
 
