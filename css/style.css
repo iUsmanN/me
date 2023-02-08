@@ -146,18 +146,30 @@ body {
 
 light-blue {
     color: #32acdd;
+    background: linear-gradient(to top, #33c0f8 0%, #3190b6 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 orange-text {
     color: #f46d15;
+    background: linear-gradient(to top, #f9731a 0%, #ef8f4e 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 blue-text {
     color: #0e5dd3;
+    background: linear-gradient(to top, #1671fa 0%, #2064ca 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 red-text {
     color: #d5522b;
+    background: linear-gradient(to top, #fa5a29 0%, #c84720 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 gray-text {
@@ -172,6 +184,7 @@ degree-text {
 university-text {
     font-size: 0.8em;
     color: #b8b8b8;
+    font-family: 'SF Pro Display', sans-serif
 }
 
 hr {
