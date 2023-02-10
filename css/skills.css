@@ -42,3 +42,18 @@
     background-image: linear-gradient(to left, rgb(243, 207, 4), rgb(226, 157, 19));
     grid-area: javascript;
 }
+
+.swiftui {
+    background-image: linear-gradient(to left, rgb(64, 122, 230), rgb(68, 105, 144));
+    grid-area: swiftui;
+}
+
+.mongodb {
+    background-image: linear-gradient(to left, rgb(137, 218, 57), rgb(102, 152, 62));
+    grid-area: mongodb;
+}
+
+/* .mongodb {
+    background-image: linear-gradient(to left, rgb(243, 207, 4), rgb(226, 157, 19));
+    grid-area: javascript;
+} */

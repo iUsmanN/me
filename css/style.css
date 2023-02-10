@@ -19,7 +19,7 @@ body {
     "profile tagline education education"
     "profile pictures pictures skills"
     "experience pictures pictures skills"
-    "experience pictures pictures contact"
+    "experience pictures pictures skills"
     "experience footer footer contact";
     gap: 10px;
 }
@@ -97,22 +97,27 @@ body {
     "html html"
     "cpp css"
     "python python"
-    "javascript javascript";
+    "javascript javascript"
+    "swiftui swiftui"
+    "mongodb mongodb";
     gap: 10px;
 }
 
 .footer {
     grid-area: footer;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
+    justify-items:center;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 .contact {
     grid-area: contact;
     display: flex;
     flex-direction: column;
-    justify-content:flex-end;
+    justify-content: center;
     align-items: center;
     font-family: 'SF Pro Display', sans-serif;
 }
@@ -153,21 +158,21 @@ light-blue {
 
 orange-text {
     color: #f46d15;
-    background: linear-gradient(to top, #f9731a 0%, #ef8f4e 100%);
+    background: linear-gradient(to top, #ff781e 0%, #e86b2d 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 blue-text {
     color: #0e5dd3;
-    background: linear-gradient(to top, #1671fa 0%, #2064ca 100%);
+    background: linear-gradient(to top, #1671fa 0%, #4f6a93 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 red-text {
     color: #d5522b;
-    background: linear-gradient(to top, #fa5a29 0%, #c84720 100%);
+    background: linear-gradient(to top, #fa5a29 0%, #c55c3d 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -200,7 +205,6 @@ p{ font-family: 'SF Pro Display', sans-serif; font-weight: 500; }
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-    height: 50px;
     padding-left: 10%;
     padding-right: 10%;
 }
