@@ -94,10 +94,10 @@ body {
     grid-template-rows: repeat(1fr);
     grid-template-areas: 
     "swift swift"
+    "javascript javascript"
+    "python python"
     "html html"
     "cpp css"
-    "python python"
-    "javascript javascript"
     "swiftui swiftui"
     "mongodb mongodb";
     gap: 10px;
