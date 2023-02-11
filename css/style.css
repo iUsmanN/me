@@ -213,7 +213,7 @@ p{ font-family: 'SF Pro Display', sans-serif; font-weight: 500; }
 .wrapper {
     width: 100%;
     display: flex;
-    animation: slide 15s infinite;
+    animation: slide 20s infinite;
 }
 
 img {
