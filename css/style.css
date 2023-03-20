@@ -151,28 +151,28 @@ body {
 
 light-blue {
     color: #32acdd;
-    background: linear-gradient(to top, #33c0f8 0%, #3190b6 100%);
+    background: linear-gradient(to top, #73d3f8 0%, #3190b6 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 orange-text {
     color: #f46d15;
-    background: linear-gradient(to top, #ff781e 0%, #e86b2d 100%);
+    background: linear-gradient(to top, #faa972 0%, #de6c32 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 blue-text {
     color: #0e5dd3;
-    background: linear-gradient(to top, #1671fa 0%, #4f6a93 100%);
+    background: linear-gradient(to top, #73a9f9 0%, #265cae 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 red-text {
     color: #d5522b;
-    background: linear-gradient(to top, #fa5a29 0%, #c55c3d 100%);
+    background: linear-gradient(to top, #fa8e6d 0%, #c34721 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }

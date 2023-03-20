@@ -13,7 +13,7 @@
 }
 
 .swift {
-    background-image: linear-gradient(to left, rgb(253, 152, 0), rgb(240, 184, 54));
+    background-image: linear-gradient(to right, rgb(253, 152, 0), rgb(240, 184, 54));
     grid-area: swift;
     overflow: hidden;
 }
@@ -34,7 +34,7 @@
 }
 
 .python {
-    background-image: linear-gradient(to left, rgb(69, 236, 255), rgb(167, 165, 66));
+    background-image: linear-gradient(to left, rgb(69, 236, 255), rgb(66, 142, 167));
     grid-area: python;
 }
 
