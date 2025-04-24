@@ -241,38 +241,26 @@ img {
     0%{
         transform: translateX(0);
     }
-    8.3%{
+    12.5%{
         transform: translateX(0);
     }
-    16.6%{
+    25%{
         transform: translateX(-100%);
     }
-    24.9%{
+    32.5%{
         transform: translateX(-100%);
     }
-    33.2%{
+    50%{
         transform: translateX(-200%);
     }
-    41.5%{
+    62.5%{
         transform: translateX(-200%);
     }
-    49.8%{
+    75%{
         transform: translateX(-300%);
     }
-    58.1%{
+    88.5%{
         transform: translateX(-300%);
-    }
-    66.4%{
-        transform: translateX(-400%);
-    }
-    74.7%{
-        transform: translateX(-400%);
-    }
-    83%{
-        transform: translateX(-500%);
-    }
-    91.3%{
-        transform: translateX(-500%);
     }
 }
 
