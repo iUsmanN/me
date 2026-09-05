@@ -1,5 +1,5 @@
 html {
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 .canvas {
