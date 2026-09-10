@@ -17,10 +17,10 @@
         grid-template-areas:
             "profile"
             "tagline"
+            "pictures"
             "experience"
             "education"
             "skills"
-            "pictures"
             "footer"
             "contact";
         gap: 12px;
@@ -83,11 +83,18 @@
     }
 
     .skills {
-        padding: 4px 0;
+        padding: 4px;
+        grid-template-areas: none;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 8px;
     }
 
     .skill {
-        padding: 14px 0;
+        grid-area: auto;
+        padding: 10px 2px;
+        font-size: 0.65em;
+        text-align: center;
     }
 
     .footer {
