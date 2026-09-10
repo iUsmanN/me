@@ -1,0 +1,100 @@
+/* Mobile / tablet layout overrides */
+
+@media (max-width: 1060px) {
+    body {
+        padding: 24px 16px;
+        box-sizing: border-box;
+    }
+
+    .container {
+        min-width: unset;
+        max-width: 480px;
+        width: 100%;
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: none;
+        grid-auto-rows: auto;
+        grid-template-areas:
+            "profile"
+            "tagline"
+            "experience"
+            "education"
+            "skills"
+            "pictures"
+            "footer"
+            "contact";
+        gap: 12px;
+    }
+
+    .profile {
+        width: auto;
+        height: 300px;
+        min-height: unset;
+    }
+
+    .name {
+        top: 20px;
+        left: 20px;
+        font-size: 2em;
+    }
+
+    .tagline {
+        font-size: 1.15em;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .education {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .experience {
+        min-width: unset;
+    }
+
+    .pictures {
+        height: 260px;
+    }
+
+    .pictures img {
+        height: 100%;
+        object-fit: cover;
+        flex-shrink: 0;
+    }
+
+    .skills {
+        padding: 4px 0;
+    }
+
+    .skill {
+        padding: 14px 0;
+    }
+
+    .footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        row-gap: 10px;
+    }
+
+    .contact {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}
+
+@media (max-width: 420px) {
+    .name {
+        font-size: 1.7em;
+    }
+
+    .tagline {
+        font-size: 1em;
+    }
+
+    .footer {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+    }
+}
