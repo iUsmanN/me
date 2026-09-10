@@ -69,6 +69,16 @@
 
     .experience {
         min-width: unset;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .job {
+        padding-left: 14px;
+        padding-right: 8px;
+    }
+
+    .job-company {
+        font-size: 1.05em;
     }
 
     .pictures {
