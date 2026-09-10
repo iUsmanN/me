@@ -28,7 +28,8 @@
 
     .profile {
         width: auto;
-        height: 300px;
+        height: auto;
+        aspect-ratio: 300 / 264.42;
         min-height: unset;
     }
 
@@ -54,7 +55,8 @@
     }
 
     .pictures {
-        height: 260px;
+        height: auto;
+        aspect-ratio: 546 / 395.58;
     }
 
     .pictures img {
