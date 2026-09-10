@@ -42,9 +42,18 @@
 
     .name {
         top: 50%;
-        left: 25%;
-        transform: translateY(-50%);
+        left: 32.9%;
+        transform: translate(-50%, -50%);
         font-size: 2em;
+        white-space: nowrap;
+    }
+
+    .name br {
+        display: none;
+    }
+
+    .name-first::after {
+        content: " ";
     }
 
     .tagline {
